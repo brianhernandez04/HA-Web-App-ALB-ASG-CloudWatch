@@ -6,7 +6,7 @@ This project has a high availability web app which is accessed through the inter
 
 ## Architecture Diagram
 
-![Architecture Diagram](images/architecture-diagram.png)
+<img width="1100" height="964" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/b1a5635d-abf1-4652-beca-686ad39c2854" />
 
 ---
 
