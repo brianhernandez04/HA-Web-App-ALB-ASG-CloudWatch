@@ -41,6 +41,15 @@ The launch template is a predefined configuration that the ASG creates instances
 
 <img width="607" height="472" alt="webapp2" src="https://github.com/user-attachments/assets/652e90d3-2d1b-4475-8d98-e2da03a16bc2" />
 
+```bash
+#!/bin/bash
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>HA Web Server</h1><p>Served from ALB</p>" > /var/www/html/index.html
+```
+
 ---
 
 ### Phase 3 — Target Group
